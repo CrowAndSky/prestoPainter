@@ -13,15 +13,19 @@
   }
 
   #stateWrapper {
-    height: 754px;
     margin: 30px auto;
     position: relative;
-    width: 1200px;
+  }
+
+  #sourceCanvas {
+    display: block;
+    margin: 0 auto;
   }
 </style>
 
 <div id="stateWrapper">
-  test
+  <canvas height="750" width="800" id="sourceCanvas"></canvas>
+  <canvas height="750" width="800" id="writtenCanvas"></canvas>
 </div>
 
 <script src="./js/main.js"></script>
